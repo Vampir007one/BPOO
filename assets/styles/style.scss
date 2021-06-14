@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+$fontTitleFont: Titillium Web;
+$fontBlockTextFont: Roboto Condensed;
+$activeColorLinks: #4a3f3f;
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+// header styles
+header
+{
+    width: 100%;
+    background: #EDD86F;
+    min-height: 330px;
+}
+// 
+
+// header icons styles
+.header__icons
+{
+    justify-content: center;
+    display: flex;
+    // justify-content: space-around;
+    align-items: center;
+    height: 272px;
+
+    .icons__icon
+    {
+        height: 20px;
+        margin: 0px 40px;
+    }
+}
+// 
+
+// header logo styles
+.header__logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    height: 272px;
+    .logo__logo
+    {
+        height: 90px;
+    }
+
+    p
+    {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        margin-top: 20px;
+        font-family: $fontTitleFont;
+        font-size: 17px;
+    }
+}
+// 
+// header feedback styles
+.header__feedbackIcons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+
+    .feedbackIcons__icon
+    {
+        display: flex;
+
+        img
+        {
+            height: 20px;
+            margin: 5px 0px 0px 0px
+        }
+        
+        .icon__2icon
+        {
+            margin: 5px 0px 0px 20px
+        }
+
+        p
+        {
+            padding: 0;
+            margin: 0;
+            margin-left: 5px;
+            font-family: $fontTitleFont;
+        }
+    }
+}
+// 
+
+// main styles
+
+main
+{
+    width: 100%;
+    min-height: 572px;
+    background: linear-gradient(0deg, rgba(97, 121, 183, 0.8), rgba(97, 121, 183, 0.8)), url(/assets/img/laptopBg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+
+    .main__title
+    {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
+        .title__main, .title__subtitle, .tittle__whoAreYou
+        {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            width: 70%;
+            color: #ffff;
+            font-family: $fontTitleFont;
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        .title__main
+        {
+            
+            
+            span
+            {
+                text-transform: uppercase;
+            }
+        }
+
+        .tittle__abiturient
+        {
+            margin-bottom: 50px;
+        }
+
+        .title__subtitle
+        {
+            margin-top: 30px;
+        }
+
+        .tittle__whoAreYou
+        {
+            margin-top: 50px;
+        }
+    }
+    
+    .main__roles
+    {
+        margin-top: 40px;
+        padding-bottom: 40px;
+
+        .roles__role
+        {
+
+            .role__link
+            {
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                text-decoration: none;
+
+                .role__roleImg
+                {
+                    height: 70px;
+                }
+    
+                .role__roleName
+                {
+                    margin: 0;
+                    padding: 0;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    width: 90%;
+                    color: #ffff;
+                    text-align: center;
+                    font-family: $fontTitleFont;
+                    font-size: 20px;
+                }
+                    
+    
+                .role__line
+                {
+                    width: 50%;
+                    height: 1px;
+                    background: #EDD86F;
+                }
+    
+                .role__description
+                {
+                    margin: 0;
+                    padding: 0;
+                    margin-top: 10px;
+                    width: 90%;
+                    line-height: 30px;
+                    color: #ffff;
+                    text-align: center;
+                    font-family: $fontTitleFont;
+                    font-size: 20px;
+                }
+
+            }
+            
+
+            
+        }
+    }
+
+}
+
+footer
+{
+    width: 100%;
+    background: #EDD86F;
+
+    .footer__icons
+    {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        height: 123px;
+    
+        .icons__icon
+        {
+            height: 20px;
+            margin: 0px 40px;
+        }
+    }
+
+    
+
+    .footer__link
+    {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: center;
+        height: 123px;
+        text-decoration: none;
+        color: #000;
+
+    }
+
+    .logo__footerLogo
+    {
+        height: 40px;
+        margin-right: 20px;
+    }
+
+    .logo__text
+    {
+        padding: 0;
+        margin: 0;
+        font-family: $fontTitleFont;
+        font-size: 15px;
+
+    }
+
+    .footer__feedback
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        button
+        {
+            margin: 0;
+            padding: 0;
+            background: none;
+            border: none;
+            border: solid #000 1px;
+            border-radius: 10px;
+            padding: 10px 20px;
+            
+
+        }
+
+        a
+        {
+            color: #000;
+            text-decoration: none;
+        }
+    }
+}
+
+.menu
+{
+    display: flex;
+    justify-content: center;
+    ul
+    {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+
+        li
+        {
+            margin: 0px 10px;
+            list-style: none;
+
+            a
+            {
+                text-decoration: none;
+                color: #000;
+                font-family: $fontTitleFont;
+                font-size: 18px;
+                &:hover
+                {
+                    transition: 5ms;
+                    color: #4a3f3f;
+                }
+            }
+
+            .menu__activeLink
+            {
+                color: $activeColorLinks;
+            }
+            
+        }
+
+       
+    }
+}
+
+.main__blocks
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    .blocks__block
+    {
+        width: 45%;
+        background: #6B89D4;
+        padding: 20px 10px;
+        border-radius: 10px;
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+        margin: 20px 30px;
+
+        span
+        {
+            font-weight: 600;
+            // letter-spacing: 1px;
+        }
+    }
+
+    .block__text
+    {
+        padding: 0;
+        margin: 0;
+        color: #ffff;
+        font-family: $fontBlockTextFont;
+        font-size: 18px;
+        line-height: 30px;
+        padding: 0px 20px;
+
+        a
+        {
+            color: inherit;
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+            text-decoration: none;
+            transition: 0.5s;
+            &:hover
+            {
+                color: $activeColorLinks;
+                transition: 0.5s;
+            }
+
+
+        }
+    }
+}
+
+.main__buttonWork
+{
+    display: flex;
+    justify-content: center;
+    a
+    {
+        padding: 0;
+        margin: 0;
+        button
+        {
+            padding: 0;
+            margin: 0;
+            margin: 30px 0px 0px 0px;
+            border: none;
+            background: none;
+            border: 1px solid #EDD86F;
+            border-radius: 10px;
+            padding: 10px 50px;
+            color: #ffff;
+            font-family: $fontBlockTextFont;
+            font-size: 18px;
+            text-transform: uppercase;
+            &:hover
+            {
+                transition: 0.5s;
+                color: $activeColorLinks;
+                background: #EDD86F;
+            }
+
+        }
+        text-decoration: none;
+    }
+}
+
+// 
