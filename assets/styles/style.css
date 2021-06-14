@@ -150,6 +150,19 @@ main .main__title .tittle__whoAreYou {
   margin-top: 50px;
 }
 
+main .main__title .main__specName {
+  color: #ffff;
+  text-align: center;
+  font-family: Titillium Web;
+  font-size: 18px;
+}
+
+main .main__title .main__specName span {
+  font-weight: bold;
+  font-family: Roboto Condensed;
+  font-size: 18px;
+}
+
 main .main__roles {
   margin-top: 40px;
   padding-bottom: 40px;
@@ -360,6 +373,10 @@ footer .footer__feedback a {
   font-weight: 600;
 }
 
+.main__blocks .block__firstblock {
+  width: 100%;
+}
+
 .main__blocks .block__text {
   padding: 0;
   margin: 0;
@@ -421,5 +438,102 @@ footer .footer__feedback a {
   transition: 0.5s;
   color: #4a3f3f;
   background: #EDD86F;
+}
+
+.topmenu .submenu {
+  display: none;
+}
+
+.topmenu .submenu li {
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #000;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.topmenu:hover .submenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 328px;
+}
+
+.topmenu:hover .submenu li:last-child {
+  padding-bottom: 20px;
+}
+
+.main__table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main__table table tr {
+  color: #ffff;
+  font-family: Roboto Condensed;
+  font-size: 18px;
+}
+
+.main__table table tr th {
+  padding: 10px 20px;
+}
+
+.main__table table tr td {
+  padding: 10px 20px;
+}
+
+.main__table table tr td a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Roboto Condensed;
+  font-size: 18px;
+}
+
+.main__table table tr td a:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #4a3f3f;
+}
+
+.main__photos .photos__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffff;
+  font-family: Titillium Web;
+  font-size: 18px;
+  margin: 30px 0px;
+}
+
+.main__photos .photos__photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main__photos .photos__photo img {
+  width: 45%;
+  margin: 0px 10px;
+  border-radius: 10px;
+  -webkit-filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
 }
 /*# sourceMappingURL=style.css.map */

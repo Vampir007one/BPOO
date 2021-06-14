@@ -149,6 +149,25 @@ main
         {
             margin-top: 50px;
         }
+
+        .main__specName
+        {
+            color: #ffff;
+            text-align: center;
+            font-family: $fontTitleFont;
+            font-size: 18px;
+        }
+
+        .main__specName
+        {
+            span
+            {
+                font-weight: bold;
+                font-family: $fontBlockTextFont;
+                font-size: 18px;
+                
+            }
+        }
     }
     
     .main__roles
@@ -355,6 +374,11 @@ footer
         }
     }
 
+    .block__firstblock
+    {
+        width: 100%;
+    }
+
     .block__text
     {
         padding: 0;
@@ -418,4 +442,101 @@ footer
     }
 }
 
+.topmenu
+{
+    .submenu
+    {
+        display: none;
+        li
+        {
+            padding: 0;
+            margin: 0;
+            border-top: 1px solid #000;
+            margin-top: 10px;
+            padding-top: 5px;
+        }
+    }
+    &:hover
+    {
+        .submenu
+        {
+            display: flex;
+            flex-flow: column;       
+            width: 328px;
+            
+            li
+            {
+                &:last-child
+                {
+                    padding-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+.main__table
+{
+    display: flex;
+    justify-content: center;
+    table
+    {
+        
+        
+        tr
+        {
+            color: #ffff;
+            font-family: $fontBlockTextFont;
+            font-size: 18px;
+            th
+            {
+                padding: 10px 20px;
+            }
+    
+            td
+            {
+                padding: 10px 20px;
+                a
+                {
+                    text-decoration: none;
+                    color: #fff;
+                    font-family: $fontBlockTextFont;
+                    font-size: 18px;
+                    &:hover
+                    {
+                        transition: 0.5s;
+                        color: $activeColorLinks;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.main__photos
+{
+    .photos__title
+    {
+        display: flex;
+        justify-content: center;
+        color: #ffff;
+        font-family: $fontTitleFont;
+        font-size: 18px;
+        margin: 30px 0px;
+    }
+
+    .photos__photo
+    {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        img
+        {
+            width: 45%;
+            margin: 0px 10px;
+            border-radius: 10px;
+            filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+    }
+}
 // 
