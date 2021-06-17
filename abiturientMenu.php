@@ -22,6 +22,27 @@
         case 'controlRoom':
             $activeLi = 'controlRoom';
             break;
+        case 'informationBpoo':
+            $activeLi = 'informationBpoo';
+            break;
+        case 'docs':
+            $activeLi = 'docs';
+            break;
+        case 'localDocs':
+            $activeLi = 'localDocs';
+            break;
+        case 'logSupport':
+            $activeLi = 'logSupport';
+            break;
+        case 'EducMethSupport':
+            $activeLi = 'EducMethSupport';
+            break;
+        case 'conferences':
+            $activeLi = 'conferences';
+            break;
+        case 'goodLinks':
+            $activeLi = 'goodLinks';
+            break;
     }
 ?>
 <ul>
@@ -35,14 +56,14 @@
             <li><a href="control_room_operator.php" <?php if($activeLi == 'controlRoom'){echo "class='menu__activeLink'";}?> >Оператор диспетчерской (производственно-диспетчерской) службы</a></li>
         </ul>
     </li>
-    <li class="topmenu"><a href="">Информация о БПОО</a>
+    <li class="topmenu"><a href="information_about_bpoo.php" <?php if($activeLi == 'informationBpoo'){echo "class='menu__activeLink'";}?>>Информация о БПОО</a>
         <ul class="submenu">
-            <li><a href="" <?php if($activeLi == 'docs'){echo "class='menu__activeLink'";}?> >Документы</a></li>
-            <li><a href="" <?php if($activeLi == 'localDocs'){echo "class='menu__activeLink'";}?> >Локальные документы</a></li>
-            <li><a href="" <?php if($activeLi == 'materialTech'){echo "class='menu__activeLink'";}?> >Материально-техническое обеспечение обучающихся с ограниченными возможностями здоровья и инвалидностью</a></li>
-            <li><a href="" <?php if($activeLi == 'lessonMetod'){echo "class='menu__activeLink'";}?> >Учебно-методическое обеспечение инклюзивного образования</a></li>
-            <li><a href="" <?php if($activeLi == 'conferenses'){echo "class='menu__activeLink'";}?> >Конференции</a></li>
-            <li><a href="" <?php if($activeLi == 'goodLink'){echo "class='menu__activeLink'";}?> >Полезные ссылки</a></li>
+            <li><a href="docs.php" <?php if($activeLi == 'docs'){echo "class='menu__activeLink'";}?> >Документы</a></li>
+            <li><a href="local_docs.php" <?php if($activeLi == 'localDocs'){echo "class='menu__activeLink'";}?> >Локальные документы</a></li>
+            <li><a href="logistics_support.php" <?php if($activeLi == 'logSupport'){echo "class='menu__activeLink'";}?> >Материально-техническое обеспечение обучающихся с ограниченными возможностями здоровья и инвалидностью</a></li>
+            <li><a href="educ_meth_support.php" <?php if($activeLi == 'EducMethSupport'){echo "class='menu__activeLink'";}?> >Учебно-методическое обеспечение инклюзивного образования</a></li>
+            <li><a href="conferences.php" <?php if($activeLi == 'conferences'){echo "class='menu__activeLink'";}?> >Конференции</a></li>
+            <li><a href="good_links.php" <?php if($activeLi == 'goodLinks'){echo "class='menu__activeLink'";}?> >Полезные ссылки</a></li>
         </ul>
     </li>
     <li><a href="" <?php if($activeLi == 'news'){echo "class='menu__activeLink'";}?> >Новости</a></li>

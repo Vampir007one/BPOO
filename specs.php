@@ -10,6 +10,7 @@
     <!-- links -->
     <link rel="stylesheet" href="assets/styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/assets/img/bpoo_ico.ico" type="image/x-icon">
     <!--  -->
     <title>График приёмной комиссии</title>
 </head>
@@ -64,17 +65,17 @@
                     <tr>
                         <td>2</td>
                         <td>46.02.01</td>
-                        <td><a href="">Документационное обеспечение управления и архивоведение</a></td>
+                        <td><a href="documentation_support.php">Документационное обеспечение управления и архивоведение</a></td>
                     </tr>
                     <tr>
                         <td>3</td>
                         <td>09.02.07</td>
-                        <td><a href="">Информационные системы и программирование</a></td>
+                        <td><a href="information_system.php">Информационные системы и программирование</a></td>
                     </tr>
                     <tr>
                         <td>4</td>
                         <td>-</td>
-                        <td><a href="">Оператор диспетчерской (производственно-диспетчерской) службы</a></td>
+                        <td><a href="control_room_operator.php">Оператор диспетчерской (производственно-диспетчерской) службы</a></td>
                     </tr>
                 </table>
             </div>
