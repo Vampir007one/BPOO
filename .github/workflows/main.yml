@@ -12,5 +12,5 @@ jobs:
         host: ${{ secrets.FTP_SERVER }}
         user: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        localDir: "/q930933x.beget.tech/"
+        localDir: "q930933x.beget.tech/"
         options: "--delete --asci"
