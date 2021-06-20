@@ -1,15 +1,7 @@
 name: ftp-action
 uses: sebastianpopp/ftp-action@v2.0.0
   with:
-    # FTP host
-    host: ${{ secrets.FTP_SERVER }}
-    # FTP user
-    user: ${{ secrets.FTP_USERNAME }}
-    # FTP password
-    password: ${{ secrets.FTP_PASSWORD }}
-    # Force SSL encryption
-    forceSsl: # optional, default is false
-    # Local directory
-    localDir: # optional, default is .
-    # Remote directory
-    remoteDir: q930933x.beget.tech/public_html/
+  host: ${{ secrets.FTP_SERVER }}
+  user: ${{ secrets.FTP_USERNAME }}
+  password: ${{ secrets.FTP_PASSWORD }}
+  remoteDir: "q930933x.beget.tech/public_html/"
